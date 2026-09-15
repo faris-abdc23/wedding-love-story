@@ -16,3 +16,5 @@ Active app: src/page.js, src/content.js, public/app.js, public/app.css, public/f
 Deploy output: dist/ only. 36 files, 20.40 MiB. See deploy-manifest.json for exact sizes and hashes. No archive, CSV, database, source backup or development dependency is in the output.
 
 npm test, node --check public/app.js and npm run build passed. Deployment not performed.
+
+Follow-up audio archive: .private-archive/music-original-before-trim.mp3 preserves the original before the three-second trim. Updated deploy manifests reflect the rebuilt audio and JavaScript.

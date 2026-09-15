@@ -3,8 +3,8 @@
   "assets": [
     {
       "path": "media/audio/kusuma-wijaya.mp3",
-      "bytes": 10622568,
-      "sha256": "db0d676092e3cacf651a0ac53e0f71e90fe9adc6ecf6efc45095138df551c78d",
+      "bytes": 10502269,
+      "sha256": "012b9d1a3c501bbc7ce8581d561f729285164bc58a0aca6d3eb2547047e0daf3",
       "source": "public/media/audio/kusuma-wijaya.mp3",
       "url": "/media/audio/kusuma-wijaya.mp3"
     },

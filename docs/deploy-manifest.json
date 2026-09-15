@@ -1,17 +1,17 @@
 {
   "generated": "2026-09-15",
   "files": 36,
-  "totalBytes": 21395045,
+  "totalBytes": 21274593,
   "entries": [
     {
       "path": "app.css",
-      "bytes": 28841,
-      "sha256": "5e50021658e5c8538d1b99ed730ddbb434423710b0d8085c7f3500a7f2dae26f"
+      "bytes": 29458,
+      "sha256": "9ee6ab2eb2bdac3cba04a9f2d0480f9c8f5a02d788605bbcc080c9e96f106175"
     },
     {
       "path": "app.js",
-      "bytes": 12890,
-      "sha256": "eade67fafa5308becba2984ea663774131d4d3dffcf0529b6b72d784ae94ff0d"
+      "bytes": 12554,
+      "sha256": "e4d031cd7544ae6982681d109f5927fda3a1968eeac0d36c618f82643b7a07e4"
     },
     {
       "path": "favicon.svg",
@@ -20,13 +20,13 @@
     },
     {
       "path": "index.html",
-      "bytes": 17549,
-      "sha256": "103e5cffb419026584d20bcccbe8ef6b299848a1f6114f8768cba617782ac51d"
+      "bytes": 17115,
+      "sha256": "ccc3e8cd8524343a369ff9f322e0839d5863ae1f1aaa52c7aa4db9632956f235"
     },
     {
       "path": "media/audio/kusuma-wijaya.mp3",
-      "bytes": 10622568,
-      "sha256": "db0d676092e3cacf651a0ac53e0f71e90fe9adc6ecf6efc45095138df551c78d"
+      "bytes": 10502269,
+      "sha256": "012b9d1a3c501bbc7ce8581d561f729285164bc58a0aca6d3eb2547047e0daf3"
     },
     {
       "path": "media/decor/background.webp",

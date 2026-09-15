@@ -7,3 +7,5 @@ Original HTML/HAR, extracted source bodies, personal-photo reference copies and 
 No WordPress, Elementor, WeddingPress or vendor runtime is deployed. All interactions use native browser APIs. No cookies, database or guest-specific media validation is part of the current public app.
 
 Font licenses remain in docs/licenses/. docs/asset-manifest.json records active source media and docs/deploy-manifest.json records the built release output.
+
+Audio update: initial three seconds trimmed losslessly at an MP3 frame boundary (3.004 seconds). Original audio is preserved privately at .private-archive/music-original-before-trim.mp3; public asset path unchanged.

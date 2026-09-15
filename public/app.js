@@ -22,22 +22,7 @@ const musicButton = $('#music-toggle');
 let opened = false;
 let userPaused = false;
 let visibilityPaused = false;
-let musicStartApplied = false;
-
-function applyMusicStart() {
-  if (!music || musicStartApplied || music.readyState < 1) return;
-  try {
-    music.currentTime = 3;
-    musicStartApplied = true;
-  } catch {
-    // Retry when the browser has loaded enough audio to seek.
-  }
-}
-
-music?.addEventListener('loadedmetadata', applyMusicStart);
-
-music?.addEventListener('playing', applyMusicStart);
-
+// The local MP3 already starts at the original track's three-second offset.
 
 function syncMusicButton() {
   if (!music || !musicButton) {
@@ -64,7 +49,6 @@ async function startMusic(retry = true) {
     music.muted = false;
     music.volume = 1;
     await music.play();
-    applyMusicStart();
     status('');
     syncMusicButton();
 
@@ -349,6 +333,8 @@ function observeReveals() {
 
 const gallery = $('.gallery');
 const galleryViewport = $('.gallery-viewport');
+const galleryInterval = 1000;
+const galleryTransition = 700;
 
 let galleryTimer;
 let galleryMoving = false;
@@ -393,7 +379,7 @@ function moveGallery(backward = false) {
   }
   galleryMoving = true;
   gallery.style.transform = `translateX(-${step}px)`;
-  galleryFallback = setTimeout(finishGalleryMove, reduced ? 0 : 450);
+  galleryFallback = setTimeout(finishGalleryMove, reduced ? 0 : galleryTransition + 100);
 }
 
 gallery?.addEventListener('transitionend', event => {
@@ -409,7 +395,7 @@ function startGallery() {
   stopGallery();
   if (!opened || document.hidden || dialog?.open || reduced || !gallery ||
       galleryHovered || galleryTouching || galleryViewport?.contains(document.activeElement)) return;
-  galleryTimer = setInterval(() => moveGallery(), 700);
+  galleryTimer = setInterval(() => moveGallery(), galleryInterval);
 }
 
 galleryViewport?.addEventListener('pointerenter', event => {

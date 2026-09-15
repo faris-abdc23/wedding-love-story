@@ -7,7 +7,7 @@ The public static Love Story scope supersedes the earlier private invitation pla
 - [x] Responsive full-width desktop and mobile layout; retain bounded content widths.
 - [x] Archive legacy code, original references, backups and private guest data.
 - [x] Rebuild and validate static-only deploy output; record SHA-256 manifest.
-- [ ] Final playback UAT: initial music offset still reset to zero in the last trusted-click browser check; verify/correct before claiming three-second start.
+- [x] Initial music segment starts at original track offset 3.004 seconds: lossless frame trim replaces browser seeking; trusted-click Chrome playback passes.
 - [ ] Final Android/iPhone playback and production media seeking check.
 - [ ] Explicitly authorized Cloudflare release, HTTPS verification and reception QR URL.
 
