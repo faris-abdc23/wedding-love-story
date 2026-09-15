@@ -36,19 +36,24 @@ const galleryPhotos = c.gallery.map(
     '</button>',
 );
 
-const story = c.story
-  .map(
-    item =>
-      '<article data-reveal>' +
-      '<time>' +
-      e(item.date) +
-      '</time>' +
-      '<p>' +
-      e(item.text) +
-      '</p>' +
-      '</article>',
-  )
-  .join('');
+const story = c.story.map((item, index) => `
+  <article class="story-chapter${index === 7 ? ' story-chapter-final' : ''}" aria-labelledby="story-date-${index}">
+    <div class="story-page intro-card">
+      <div class="story-prose intro-quote-panel" data-reveal data-reveal-delay="140" data-reveal-duration="900">
+        <figure class="story-art intro-photo-frame">
+          <picture>
+            <source srcset="${e(item.image)}" type="image/webp">
+            <img src="${e(item.fallback)}" alt="${e(item.alt)}" width="1672" height="941" loading="lazy" decoding="async">
+          </picture>
+        </figure>
+        <div class="story-copy">
+          <h3 id="story-date-${index}"><time datetime="${e(item.datetime)}">${e(item.date)}</time></h3>
+          <p>${e(item.text)}</p>
+          <img class="story-motif story-motif-top" src="/media/decor/motif-top.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+        </div>
+      </div>
+    </div>
+  </article>`).join('');
 
 export function invitation() {
   return `<!doctype html>
@@ -206,7 +211,7 @@ export function invitation() {
              OUR JOURNEY
              ===================================================== -->
 
-        <section class="story paper">
+        <section class="story paper" aria-labelledby="love-story-heading">
 
           <div class="story-inner">
 
@@ -216,38 +221,31 @@ export function invitation() {
               data-reveal
             >
 
+              <p class="script">
+                Our Journey
+              </p>
+
+              <h2 id="love-story-heading">
+                Love Story
+              </h2>
+
+              <p>
+                Delapan tahun, satu perjalanan.
+              </p>
+
               <img
                 class="gunungan"
                 src="/media/decor/gunungan.webp"
                 alt=""
               >
-
-              <p class="script">
-                From the very beginning
-              </p>
-
-              <h2>
-                Our Journey
-              </h2>
-
-              <p>
-                Sebuah perjalanan sederhana yang
-                membawa kami sampai pada hari ini.
-              </p>
-
             </div>
 
 
-            <div class="timeline">
+            <div class="story-chapters">
               ${story}
             </div>
-
-
           </div>
-
         </section>
-
-
 
         <!-- =====================================================
              THE TWO BEHIND THE STORY

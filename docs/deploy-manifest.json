@@ -1,17 +1,22 @@
 {
   "generated": "2026-09-15",
-  "files": 36,
-  "totalBytes": 21274593,
+  "files": 52,
+  "totalBytes": 40262897,
   "entries": [
     {
+      "path": "_headers",
+      "bytes": 282,
+      "sha256": "f26cf0b2bb41d18782dc66a1b099957f515dd307d5fe90286b84200c1878f92b"
+    },
+    {
       "path": "app.css",
-      "bytes": 29458,
-      "sha256": "9ee6ab2eb2bdac3cba04a9f2d0480f9c8f5a02d788605bbcc080c9e96f106175"
+      "bytes": 33139,
+      "sha256": "fa451e9d9129a88ad295fa721a0a659ad52abe5858b1cf720c7ae43a9fcfbcdd"
     },
     {
       "path": "app.js",
-      "bytes": 12554,
-      "sha256": "e4d031cd7544ae6982681d109f5927fda3a1968eeac0d36c618f82643b7a07e4"
+      "bytes": 12650,
+      "sha256": "996eb07ee8e52e51c4af63dee5e799323785d0bb3ce21b15313b4c37bd7439cf"
     },
     {
       "path": "favicon.svg",
@@ -20,8 +25,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 17115,
-      "sha256": "ccc3e8cd8524343a369ff9f322e0839d5863ae1f1aaa52c7aa4db9632956f235"
+      "bytes": 24962,
+      "sha256": "6c4fd62110dd12b0ba6351b4a70506d12ffafd1d92e96d0a75eb4885fe5fb57c"
     },
     {
       "path": "media/audio/kusuma-wijaya.mp3",
@@ -174,14 +179,89 @@
       "sha256": "2b4ff3b53c63f6b5c5be30a2e0769ac8d213e072ce52b214b95c06861714a9f7"
     },
     {
+      "path": "media/story/1.png",
+      "bytes": 2163048,
+      "sha256": "5a54fe3d840b54cc806e7ad6287f645eb79519f95571ae30e3d6cc2e024b7ab2"
+    },
+    {
+      "path": "media/story/1.webp",
+      "bytes": 278780,
+      "sha256": "0cd2acc3804eba7f6b0a3898bce328b9df9de9267ad640ce223fd49cd7c5c227"
+    },
+    {
+      "path": "media/story/2.png",
+      "bytes": 2090794,
+      "sha256": "0deab325a9ccd43f05bf9dab76c8329f380b675617e9543790440a95fcfba60b"
+    },
+    {
+      "path": "media/story/2.webp",
+      "bytes": 255304,
+      "sha256": "5d380019688ad1319674756e08f8b82317313c1eb47cdb3ee40bc75ec0612102"
+    },
+    {
+      "path": "media/story/3.png",
+      "bytes": 1952583,
+      "sha256": "f7d702a86f2e9a525f2ae41aae1debe47befb51813dd1ee0ab783198e309f808"
+    },
+    {
+      "path": "media/story/3.webp",
+      "bytes": 209450,
+      "sha256": "d06bbf459528975c29626324112fa1030818093310447684205489ef045c4997"
+    },
+    {
+      "path": "media/story/4.png",
+      "bytes": 1974610,
+      "sha256": "39e35c454e7ed5e39d7deab3096de332139de1b0dc801247d343319b0b56f291"
+    },
+    {
+      "path": "media/story/4.webp",
+      "bytes": 234054,
+      "sha256": "c702b0c06aa5cafea61f359141e5d65128947f6ee8721346b976f206eeef7191"
+    },
+    {
+      "path": "media/story/5.png",
+      "bytes": 2082262,
+      "sha256": "01b6ed1fc10678760d4afe6e817ff771583705f572654b9c02bf56888dbfd8a1"
+    },
+    {
+      "path": "media/story/5.webp",
+      "bytes": 273278,
+      "sha256": "128891700167597ad975334651d355e58941fb25748feea1b036c811e78b1081"
+    },
+    {
+      "path": "media/story/6.png",
+      "bytes": 1916839,
+      "sha256": "ff9c2647527e8194680847c9e569741bc51295ab053009df6b0c1de04b6af5b5"
+    },
+    {
+      "path": "media/story/6.webp",
+      "bytes": 221372,
+      "sha256": "47d13353b35b5a93a70370360f9179be1acf42cbd3b003bb050eb16f663aff73"
+    },
+    {
+      "path": "media/story/7.png",
+      "bytes": 2463119,
+      "sha256": "33a2fc066e308729e45b0665af64451ff9e3482d49679213f6d8facfe1dd9bec"
+    },
+    {
+      "path": "media/story/7.webp",
+      "bytes": 386274,
+      "sha256": "80fd220bd72a35b31e7d3897707096c108e46771cc7c065c80e98e0f9308b531"
+    },
+    {
+      "path": "media/story/8.png",
+      "bytes": 2196675,
+      "sha256": "04b87fa243f9b2d26a28a9dabfc082f96fe1227a0ada0270fe5c3195e44a916f"
+    },
+    {
+      "path": "media/story/8.webp",
+      "bytes": 278238,
+      "sha256": "d8b45a0b0eb2e46fd421ba43659d30f597036ad8cebfe65c7901e8c37c41b57c"
+    },
+    {
       "path": "media/video/jawa-motion.mp4",
       "bytes": 8866326,
       "sha256": "7b5428d54f7952cf0136646818c1976b0f32a94c4dfd8f4dda0f0920b7ebd8c3"
-    },
-    {
-      "path": "_headers",
-      "bytes": 282,
-      "sha256": "f26cf0b2bb41d18782dc66a1b099957f515dd307d5fe90286b84200c1878f92b"
     }
   ]
 }

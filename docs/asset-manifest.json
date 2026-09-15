@@ -217,6 +217,118 @@
       "sha256": "7b5428d54f7952cf0136646818c1976b0f32a94c4dfd8f4dda0f0920b7ebd8c3",
       "source": "public/media/video/jawa-motion.mp4",
       "url": "/media/video/jawa-motion.mp4"
+    },
+    {
+      "path": "media/story/1.png",
+      "bytes": 2163048,
+      "sha256": "5a54fe3d840b54cc806e7ad6287f645eb79519f95571ae30e3d6cc2e024b7ab2",
+      "source": "public/media/story/1.png",
+      "url": "/media/story/1.png"
+    },
+    {
+      "path": "media/story/1.webp",
+      "bytes": 278780,
+      "sha256": "0cd2acc3804eba7f6b0a3898bce328b9df9de9267ad640ce223fd49cd7c5c227",
+      "source": "public/media/story/1.webp",
+      "url": "/media/story/1.webp"
+    },
+    {
+      "path": "media/story/2.png",
+      "bytes": 2090794,
+      "sha256": "0deab325a9ccd43f05bf9dab76c8329f380b675617e9543790440a95fcfba60b",
+      "source": "public/media/story/2.png",
+      "url": "/media/story/2.png"
+    },
+    {
+      "path": "media/story/2.webp",
+      "bytes": 255304,
+      "sha256": "5d380019688ad1319674756e08f8b82317313c1eb47cdb3ee40bc75ec0612102",
+      "source": "public/media/story/2.webp",
+      "url": "/media/story/2.webp"
+    },
+    {
+      "path": "media/story/3.png",
+      "bytes": 1952583,
+      "sha256": "f7d702a86f2e9a525f2ae41aae1debe47befb51813dd1ee0ab783198e309f808",
+      "source": "public/media/story/3.png",
+      "url": "/media/story/3.png"
+    },
+    {
+      "path": "media/story/3.webp",
+      "bytes": 209450,
+      "sha256": "d06bbf459528975c29626324112fa1030818093310447684205489ef045c4997",
+      "source": "public/media/story/3.webp",
+      "url": "/media/story/3.webp"
+    },
+    {
+      "path": "media/story/4.png",
+      "bytes": 1974610,
+      "sha256": "39e35c454e7ed5e39d7deab3096de332139de1b0dc801247d343319b0b56f291",
+      "source": "public/media/story/4.png",
+      "url": "/media/story/4.png"
+    },
+    {
+      "path": "media/story/4.webp",
+      "bytes": 234054,
+      "sha256": "c702b0c06aa5cafea61f359141e5d65128947f6ee8721346b976f206eeef7191",
+      "source": "public/media/story/4.webp",
+      "url": "/media/story/4.webp"
+    },
+    {
+      "path": "media/story/5.png",
+      "bytes": 2082262,
+      "sha256": "01b6ed1fc10678760d4afe6e817ff771583705f572654b9c02bf56888dbfd8a1",
+      "source": "public/media/story/5.png",
+      "url": "/media/story/5.png"
+    },
+    {
+      "path": "media/story/5.webp",
+      "bytes": 273278,
+      "sha256": "128891700167597ad975334651d355e58941fb25748feea1b036c811e78b1081",
+      "source": "public/media/story/5.webp",
+      "url": "/media/story/5.webp"
+    },
+    {
+      "path": "media/story/6.png",
+      "bytes": 1916839,
+      "sha256": "ff9c2647527e8194680847c9e569741bc51295ab053009df6b0c1de04b6af5b5",
+      "source": "public/media/story/6.png",
+      "url": "/media/story/6.png"
+    },
+    {
+      "path": "media/story/6.webp",
+      "bytes": 221372,
+      "sha256": "47d13353b35b5a93a70370360f9179be1acf42cbd3b003bb050eb16f663aff73",
+      "source": "public/media/story/6.webp",
+      "url": "/media/story/6.webp"
+    },
+    {
+      "path": "media/story/7.png",
+      "bytes": 2463119,
+      "sha256": "33a2fc066e308729e45b0665af64451ff9e3482d49679213f6d8facfe1dd9bec",
+      "source": "public/media/story/7.png",
+      "url": "/media/story/7.png"
+    },
+    {
+      "path": "media/story/7.webp",
+      "bytes": 386274,
+      "sha256": "80fd220bd72a35b31e7d3897707096c108e46771cc7c065c80e98e0f9308b531",
+      "source": "public/media/story/7.webp",
+      "url": "/media/story/7.webp"
+    },
+    {
+      "path": "media/story/8.png",
+      "bytes": 2196675,
+      "sha256": "04b87fa243f9b2d26a28a9dabfc082f96fe1227a0ada0270fe5c3195e44a916f",
+      "source": "public/media/story/8.png",
+      "url": "/media/story/8.png"
+    },
+    {
+      "path": "media/story/8.webp",
+      "bytes": 278238,
+      "sha256": "d8b45a0b0eb2e46fd421ba43659d30f597036ad8cebfe65c7901e8c37c41b57c",
+      "source": "public/media/story/8.webp",
+      "url": "/media/story/8.webp"
     }
   ]
 }

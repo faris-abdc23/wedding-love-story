@@ -7,11 +7,15 @@
   },
   "scripts": {
     "build": "node scripts/build-static.mjs",
-    "dev": "npm run build && wrangler dev",
+    "watch": "nodemon --watch src --watch public --ext js,css,html,webp,png --exec \"npm run build\"",
+    "dev:server": "wrangler dev",
+    "dev": "npm run build && concurrently \"npm run watch\" \"npm run dev:server\"",
     "test": "node --test",
     "deploy": "npm run build && wrangler deploy"
   },
   "devDependencies": {
+    "concurrently": "^10.0.5",
+    "nodemon": "^3.1.14",
     "wrangler": "^4.131.1"
   }
 }

@@ -7,7 +7,7 @@ test('static story renders without guest data and resolves media',()=>{
  const html=invitation();
  assert.match(html,/Open Our Story/);
  assert.equal((html.match(/class="photo"/g)||[]).length,9);
- assert.equal((html.match(/<article data-reveal>/g)||[]).length,8);
+ assert.equal((html.match(/class="story-chapter(?: story-chapter-final)?"/g)||[]).length,8);
  for(const match of html.matchAll(/(?:src|href)="(\/[^"#]+)"/g))assert.ok(existsSync('public'+match[1]),match[1]);
  assert.doesNotMatch(html,/rsvp|wishes|token|quota|calendar|maps|bank|gift|qr-code/i);
  assert.equal(content.gifts,undefined);

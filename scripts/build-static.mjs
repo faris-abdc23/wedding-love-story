@@ -14,7 +14,7 @@ async function validate(directory, prefix='') {
   const relative=prefix+entry.name;
   if(entry.isSymbolicLink())throw Error('Build symlinks are not allowed: '+relative);
   if(entry.isDirectory()){await validate(directory+'/'+entry.name,relative+'/');continue;}
-  if(prefix && !/\.(webp|woff2|mp3|mp4)$/.test(relative))throw Error('Unexpected media file: '+relative);
+  if(prefix && !/\.(webp|woff2|mp3|mp4)$/.test(relative) && !/^media\/story\/[1-8]\.png$/.test(relative))throw Error('Unexpected media file: '+relative);
   if((await stat(directory+'/'+entry.name)).size>25*1024*1024)throw Error('Static asset exceeds 25 MiB: '+relative);
  }
 }

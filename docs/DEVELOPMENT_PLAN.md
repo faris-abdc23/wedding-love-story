@@ -8,6 +8,9 @@ The public static Love Story scope supersedes the earlier private invitation pla
 - [x] Archive legacy code, original references, backups and private guest data.
 - [x] Rebuild and validate static-only deploy output; record SHA-256 manifest.
 - [x] Initial music segment starts at original track offset 3.004 seconds: lossless frame trim replaces browser seeking; trusted-click Chrome playback passes.
+- [x] Replace conventional timeline with eight illustrated story chapters; preserve supplied prose, existing theme and interactions. Local tests/build pass; visual browser/device review pending.
+- [x] Refine story pages with existing intro paper/frame/quote classes and motifs; Chrome checks at 360?1440px show no horizontal overflow, mobile/desktop screenshots reviewed.
+- [x] Tune story heading shade, image vignettes and warm patterned copy; build and Chrome responsive visual checks pass.
 - [ ] Final Android/iPhone playback and production media seeking check.
 - [ ] Explicitly authorized Cloudflare release, HTTPS verification and reception QR URL.
 
