@@ -1,0 +1,187 @@
+{
+  "generated": "2026-09-15",
+  "files": 36,
+  "totalBytes": 21395045,
+  "entries": [
+    {
+      "path": "app.css",
+      "bytes": 28841,
+      "sha256": "5e50021658e5c8538d1b99ed730ddbb434423710b0d8085c7f3500a7f2dae26f"
+    },
+    {
+      "path": "app.js",
+      "bytes": 12890,
+      "sha256": "eade67fafa5308becba2984ea663774131d4d3dffcf0529b6b72d784ae94ff0d"
+    },
+    {
+      "path": "favicon.svg",
+      "bytes": 237,
+      "sha256": "85f3e3547f7936f276a0d469a78a7ab5a74b6a28a558f570888efa227fb43162"
+    },
+    {
+      "path": "index.html",
+      "bytes": 17549,
+      "sha256": "103e5cffb419026584d20bcccbe8ef6b299848a1f6114f8768cba617782ac51d"
+    },
+    {
+      "path": "media/audio/kusuma-wijaya.mp3",
+      "bytes": 10622568,
+      "sha256": "db0d676092e3cacf651a0ac53e0f71e90fe9adc6ecf6efc45095138df551c78d"
+    },
+    {
+      "path": "media/decor/background.webp",
+      "bytes": 258856,
+      "sha256": "f11dd655e7f2df1beaba9c61843cc20153edbd68f0dfd3376eac7dc9089a1883"
+    },
+    {
+      "path": "media/decor/couple-1.webp",
+      "bytes": 37564,
+      "sha256": "a23dfb71c586403a73d318a88654cddd7ef6e042a01b84dc273b43cd8ae6bbf1"
+    },
+    {
+      "path": "media/decor/couple-2.webp",
+      "bytes": 33998,
+      "sha256": "30ff747b85af81d85bce8afb7259a8b53f00af14f703c66414e43acc110be5d8"
+    },
+    {
+      "path": "media/decor/couple-3.webp",
+      "bytes": 39102,
+      "sha256": "b6d8d012bef872daf9f1ad9adf808ea623e47c7ad605946ee571edb6ae1109a0"
+    },
+    {
+      "path": "media/decor/couple-4.webp",
+      "bytes": 37922,
+      "sha256": "3ce828b70b65f2f3336000f7c74fcf0b4acbb5c394681b0bdadf2d574c31e2b7"
+    },
+    {
+      "path": "media/decor/fallback.webp",
+      "bytes": 197816,
+      "sha256": "2a42ce25758d012357c6daa95d0e4c5c5f8b1e649b1d84ad42422f00aa2bd6a9"
+    },
+    {
+      "path": "media/decor/gunungan.webp",
+      "bytes": 57610,
+      "sha256": "9c586d01a3ab3b549a435641c0dd892a7d923425775dfb7ee92f92dfa2d5f3d4"
+    },
+    {
+      "path": "media/decor/motif-bottom.webp",
+      "bytes": 166724,
+      "sha256": "30a719ab63cce8959dbb479600a9f6b37eda29142a139a322a1594c90887a82c"
+    },
+    {
+      "path": "media/decor/motif-top.webp",
+      "bytes": 166108,
+      "sha256": "85ca8f695c9c8a9c3a2c857ee5f53d17623455e6f85c02b3a278b789d9fbaf89"
+    },
+    {
+      "path": "media/decor/pattern.webp",
+      "bytes": 83898,
+      "sha256": "1872008534a0ad0576d9558c7ccdc581d73c9b4172de1a85ea040bc738bf6958"
+    },
+    {
+      "path": "media/fonts/alex-brush.woff2",
+      "bytes": 22092,
+      "sha256": "1f2590dfb10170089bf7c3b01286b2f544f28cbdcae3818ab53b8f16e6da2e44"
+    },
+    {
+      "path": "media/fonts/cormorant-infant-bold.woff2",
+      "bytes": 36796,
+      "sha256": "3f3923df9457937120a8c377c5a512dc266195be9e817e347638a3057b2203ba"
+    },
+    {
+      "path": "media/fonts/cormorant-infant.woff2",
+      "bytes": 35708,
+      "sha256": "918ac76946638e5305e33e1dfcbea63292e5273e0126baa9fc723294e5d037f4"
+    },
+    {
+      "path": "media/fonts/pinyon-script.woff2",
+      "bytes": 28072,
+      "sha256": "4bf65668f8b1772d7cecbef85ea6f8c126913b8a307607a8d44e5f2c8f371150"
+    },
+    {
+      "path": "media/fonts/poppins-regular.woff2",
+      "bytes": 7900,
+      "sha256": "3dc5d0c52428fe1696264907a1054ebbaac07f8cbe45832c105f819c2ae397c0"
+    },
+    {
+      "path": "media/fonts/poppins-semibold.woff2",
+      "bytes": 7740,
+      "sha256": "289e0afc8be731a86822349e54557296f145926496bd2138db1bac0db77f77a2"
+    },
+    {
+      "path": "media/photos/cover.webp",
+      "bytes": 38764,
+      "sha256": "2bb6c572f93362e7bfbff82e3819872b4af3957565f7cc5d3833fa3562ad35b5"
+    },
+    {
+      "path": "media/photos/gallery-01.webp",
+      "bytes": 34418,
+      "sha256": "8e3e59813e597f31d739ba6a47a88279cfd5668cf7621d71380ef021a76812d2"
+    },
+    {
+      "path": "media/photos/gallery-02.webp",
+      "bytes": 58654,
+      "sha256": "aa26c52d1440395c39fbf15e964515087a4ad818dbdf3a7a0866f7851aee4abe"
+    },
+    {
+      "path": "media/photos/gallery-03.webp",
+      "bytes": 61260,
+      "sha256": "f75e0050a5d42f1922f1ff7bb0e8476cf2616a013c26d9758db9a6cb9e8e6784"
+    },
+    {
+      "path": "media/photos/gallery-04.webp",
+      "bytes": 53986,
+      "sha256": "f36b4b928e8ed35ba1909cc54ad64e1238ce99cb96749b8f07969bc91b7f309e"
+    },
+    {
+      "path": "media/photos/gallery-05.webp",
+      "bytes": 43442,
+      "sha256": "ea41e37e93a5a378a8d3b130bbe6698865f4a529065107e6d41e55f5fb556703"
+    },
+    {
+      "path": "media/photos/gallery-06.webp",
+      "bytes": 62338,
+      "sha256": "db796c96b4f530da9d078c9d29dc001db204ac43c889d28fa29e6c320566919b"
+    },
+    {
+      "path": "media/photos/gallery-07.webp",
+      "bytes": 64728,
+      "sha256": "4d6adce335c4eedd7dae146d753d9fdf3a0a8495fe26f8ae659656c02690975a"
+    },
+    {
+      "path": "media/photos/gallery-08.webp",
+      "bytes": 70260,
+      "sha256": "04b69edbb8daff88631b1694b25407a3ee9777561a41a4b740b67396f1125bf7"
+    },
+    {
+      "path": "media/photos/gallery-09.webp",
+      "bytes": 64944,
+      "sha256": "db694ff68eb975fdf66103ebc9cf2d9e0c72a36ef76234b62f09b6f40590732e"
+    },
+    {
+      "path": "media/photos/portrait-faris.webp",
+      "bytes": 23998,
+      "sha256": "0ab8532ac7bcf34caa94dca8c87cd08fd9145732f8e36d4eddfe7647bcbd36b3"
+    },
+    {
+      "path": "media/photos/portrait-tyas.webp",
+      "bytes": 23980,
+      "sha256": "e17845c3c62ec051a182cb3db2e9b57a25b2e0118322164e23df764aa13a49a1"
+    },
+    {
+      "path": "media/photos/wide-couple.webp",
+      "bytes": 27674,
+      "sha256": "2b4ff3b53c63f6b5c5be30a2e0769ac8d213e072ce52b214b95c06861714a9f7"
+    },
+    {
+      "path": "media/video/jawa-motion.mp4",
+      "bytes": 8866326,
+      "sha256": "7b5428d54f7952cf0136646818c1976b0f32a94c4dfd8f4dda0f0920b7ebd8c3"
+    },
+    {
+      "path": "_headers",
+      "bytes": 282,
+      "sha256": "f26cf0b2bb41d18782dc66a1b099957f515dd307d5fe90286b84200c1878f92b"
+    }
+  ]
+}
