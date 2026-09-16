@@ -5,10 +5,9 @@ await mkdir('dist', {recursive:true});
 for (const name of await readdir('dist')) {
   if (!allowed.has(name)) throw Error('Unexpected build file: '+name+'. Remove it before deploying.');
 }
-for (const name of ['app.css','app.js','favicon.svg']) await copyFile('public/'+name,'dist/'+name);
+for (const name of ['app.css','app.js','favicon.svg','_headers']) await copyFile('public/'+name,'dist/'+name);
 await cp('public/media','dist/media',{recursive:true});
 await writeFile('dist/index.html',invitation());
-await writeFile('dist/_headers',"/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: no-referrer\n  Content-Security-Policy: default-src 'self'; img-src 'self'; media-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; connect-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'none'\n");
 async function validate(directory, prefix='') {
  for (const entry of await readdir(directory,{withFileTypes:true})) {
   const relative=prefix+entry.name;

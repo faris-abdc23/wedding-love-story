@@ -41,10 +41,13 @@ const story = c.story.map((item, index) => `
     <div class="story-page intro-card">
       <div class="story-prose intro-quote-panel" data-reveal data-reveal-delay="140" data-reveal-duration="900">
         <figure class="story-art intro-photo-frame">
-          <picture>
-            <source srcset="${e(item.image)}" type="image/webp">
-            <img src="${e(item.fallback)}" alt="${e(item.alt)}" width="1672" height="941" loading="lazy" decoding="async">
-          </picture>
+          <div class="story-art-media">
+            <picture>
+              <source srcset="${e(item.image)}" type="image/webp">
+              <img src="${e(item.fallback)}" alt="${e(item.alt)}" width="1672" height="941" loading="lazy" decoding="async">
+            </picture>
+            <div class="story-art-vignette"></div>
+          </div>
         </figure>
         <div class="story-copy">
           <h3 id="story-date-${index}"><time datetime="${e(item.datetime)}">${e(item.date)}</time></h3>

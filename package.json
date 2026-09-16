@@ -8,7 +8,7 @@
   "scripts": {
     "build": "node scripts/build-static.mjs",
     "watch": "nodemon --watch src --watch public --ext js,css,html,webp,png --exec \"npm run build\"",
-    "dev:server": "wrangler dev",
+    "dev:server": "wrangler dev --ip 0.0.0.0 --port 8787",
     "dev": "npm run build && concurrently \"npm run watch\" \"npm run dev:server\"",
     "test": "node --test",
     "deploy": "npm run build && wrangler deploy"

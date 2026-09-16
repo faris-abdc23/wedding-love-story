@@ -19,3 +19,13 @@ test('deployment contains no database or private source directory',()=>{
  const js=readFileSync('public/app.js','utf8');
  assert.doesNotMatch(js,/fetch\(|localStorage|document\.cookie|rsvp|wishes|quota|token/i);
 });
+test('security headers source is ready for Cloudflare Pages',()=>{
+ const headers=readFileSync('public/_headers','utf8');
+ assert.match(headers,/^\/\*/);
+ assert.match(headers,/Content-Security-Policy: default-src 'self'; img-src 'self'; media-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; connect-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'none'/);
+ assert.match(headers,/Strict-Transport-Security: max-age=31536000; includeSubDomains/);
+ assert.match(headers,/Referrer-Policy: no-referrer/);
+ assert.match(headers,/(^|\n)  X-Content-Type-Options: nosniff(\n|$)/);
+ assert.match(headers,/Permissions-Policy: camera=\(\), microphone=\(\), geolocation=\(\), payment=\(\), usb=\(\)/);
+ assert.doesNotMatch(headers,/X-Frame-Options|preload/);
+});
